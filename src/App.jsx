@@ -25,7 +25,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://api.openweathermap.org/data/2.5/weather?lat=36.7525&lon=3.04197&appid=589f1c1e140219b2ab9d96e5b98cfd61",
+        "https://api.openweathermap.org/data/2.5/weather?lat=36.7525&lon=3.04197&appid=API_KEY",
         {
           cancelToken: new axios.CancelToken((c) => (cancelAxios = c)),
         }

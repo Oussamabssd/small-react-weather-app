@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: IBM;
+  src: url(/public/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  width: 500;
+}
+
+@theme{
+  --font-family: IBM;
+}
+
+

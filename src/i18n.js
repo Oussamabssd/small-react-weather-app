@@ -7,20 +7,29 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      "Jijel": "Jijel",
+      Jijel: "Jijel",
       "clear sky": "clear sky",
+      "scattered clouds": "scattered clouds",
+      min: "min",
+      max: "max",
     },
   },
   fr: {
     translation: {
-      "Jijel": "Jijel",
+      Jijel: "Jijel",
       "clear sky": "ciel dégagé",
+      "scattered clouds": "nuages épares",
+      min: "min",
+      max: "max",
     },
   },
   ar: {
     translation: {
-      "Jijel": "جيجل",
+      Jijel: "جيجل",
       "clear sky": "سماء صافية",
+      "scattered clouds": "سحب متفرقة",
+      min: "الصغرى",
+      max: "الكبرى",
     },
   },
 };
